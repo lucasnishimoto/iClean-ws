@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build da imagem docker'){
             steps{
-                sh 'docker build -t latest'
+                sh 'docker build -t latest .'
             }
         }
         stage('Sleep para a preparação do build '){
