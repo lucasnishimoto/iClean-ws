@@ -10,5 +10,6 @@ Para fazer o rodar desse projeto rode
 
 ```bash
   npm run i && npm start
+  
 ```
 
