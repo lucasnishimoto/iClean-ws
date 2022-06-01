@@ -4,9 +4,9 @@ iClean é um projeto que tem como objetivo ajudar a renovar o método de procura
 domésticas.
 
 
-## Deploy
+## Rodar localmente
 
-Para fazer o deploy desse projeto rode
+Para fazer o rodar desse projeto rode
 
 ```bash
   npm run i && npm start
