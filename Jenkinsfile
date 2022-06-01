@@ -6,7 +6,7 @@ pipeline {
                 sh 'docker build -t latest'
             }
         }
-        stage('Sleep para a preparação do build ')
+        stage('Sleep para a preparação do build '){
             steps{
                 sh 'sleep 10'
             }
