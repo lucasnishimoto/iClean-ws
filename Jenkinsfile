@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build da imagem docker'){
             steps{
-                sh 'docker build -t latest .'
+                sh 'docker build -t iclean/master:1.0 .'
             }
         }
         stage('Sleep para a preparação do build '){
