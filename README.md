@@ -12,3 +12,5 @@ Para fazer o rodar desse projeto rode
   npm run i && npm start
   
 ```
+
+
